@@ -2324,13 +2324,13 @@ i::before,i::after{
 
 /*Single Porfolio*/
 .item-one {
-   background: url(../images/bg-single-1.jpg) no-repeat;
+   background: url(../images/perishablegoods.jpg) no-repeat;
 }
 .item-two {
-   background: url(../images/bg-single-2.jpg) no-repeat;
+   background: url(../images/perishablegoods.jpg) no-repeat;
 }
 .item-three {
-   background: url(../images/bg-single-3.jpg) no-repeat;
+   background: url(../images/dangerousgoods.png) no-repeat;
 }
 .item-four {
    background: url(../images/bg-single-4.jpg) no-repeat;
