@@ -9,8 +9,14 @@
 <link rel="stylesheet" href="css/plugins.css">
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/yellow.css">
+<!-- Header -->
+<link rel="stylesheet" href="Header/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="Header/css/font-awesome.min.css">
+<link href='Header/https://fonts.googleapis.com/css?family=Open+Sans:300,600|Raleway:600,300|Josefin+Slab:400,700,600italic,600,400italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="Header/css/slick-team-slider.css" />
+<link rel="stylesheet" type="text/css" href="Header/css/style.css">
 </head>
-<body data-spy="scroll" data-target=".navbar" data-offset="90">
+<body data-spy="scroll">
 
 <!--PreLoader-->
 <div class="loader">
@@ -38,114 +44,43 @@
 <!--PreLoader Ends-->
 
 <!-- header -->
-<header class="site-header">
-   <nav class="navbar navbar-expand-lg transparent-bg static-nav">
-      <div class="container">
-         <a class="navbar-brand" href="index.html">
-         <img src="images/logo-transparent.png" alt="logo">
-         </a>
-         <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#xenav">
-            <span> </span>
-            <span> </span>
-            <span> </span>
-         </button>
-         <div class="collapse navbar-collapse" id="xenav">
-            <ul class="navbar-nav ml-auto">
-               <li class="nav-item active">
-                  <a class="nav-link pagescroll" href="#home">Home</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link pagescroll" href="#aboutus">About</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link pagescroll" href="#servicespage">Services</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link pagescroll" href="#contactus">Contact</a>
-               </li>
+<!--HEADER START-->
+<div class="main-navigation navbar-fixed-top">
+      <nav class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+             </button>
+            <a class="navbar-brand" href="index.html">Dzuel</a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active"><a href="#home">Home</a></li>
+              <li><a href="#aboutus">About</a></li>
+              <li><a href="#servicespage">Service</a></li>
+              <li><a href="#contactus">Contact Us</a></li>
             </ul>
-         </div>
-      </div>
-
-      <!--side menu open button-->
-      <a href="javascript:void(0)" class="d-none d-lg-inline-block sidemenu_btn" id="sidemenu_toggle">
-          <span></span> <span></span> <span></span>
-       </a>
-   </nav>
-
-   <!-- side menu -->
-   <div class="side-menu">
-      <div class="inner-wrapper">
-         <span class="btn-close" id="btn_sideNavClose"><i></i><i></i></span>
-         <nav class="side-nav">
-            <ul class="navbar-nav w-100">
-               <li class="nav-item active">
-                  <a class="nav-link pagescroll" href="#home">Home</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link pagescroll" href="#aboutus">About</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link pagescroll" href="#servicespage">Services</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link pagescroll" href="#contactus">Contact</a>
-               </li>
-            </ul>
-         </nav>
-
-         <div class="side-footer w-100">
-            <ul class="social-icons-simple white top40">
-            <li><a href="javascript:void(0)"><i class="fa fa-facebook"></i> </a> </li>
-            <li><a href="javascript:void(0)"><i class="fa fa-instagram"></i> </a> </li>
-            <li><a href="javascript:void(0)"><i class="fa fa-twitter"></i> </a> </li>
-         </ul>
-         <p class="whitecolor">&copy; 2019 Dzuel Logistics. All rights reserved</p>
-         </div>
-      </div>
-   </div>
-   <a id="close_side_menu" href="javascript:void(0);"></a>
-   <!-- End side menu -->
-</header>
-<!-- header -->
-
-
-<!--Main Slider-->
-<div class="rotating-slider padding_top full-screen center-block parallaxie" id="home">
+          </div>
+        </div>
+      </nav>
+</div>
+<!--HEADER END-->
+<!--BANNER START-->
+<div id="banner" class="section-padding">
    <div class="container">
-      <div class="row padding_half">
-         <div class="col-md-12">
-            <div id="text-fading" class="owl-carousel text-center">
-               <div class="item bottom30">
-                  <h2 class="text-capitalize font-xlight whitecolor">
-                     <span class="d-block">DZEULS LOGISTICS</span>
-                     <span class="d-block fontbold">Air Transportation</span>
-                     <!-- <span class="d-block font-xlight"> In One Page</span> -->
-                  </h2>
-                  <a href="#contactus" class="button btnsecondary top40 pagescroll">Learn More</a>
-               </div>
-               <!-- <div class="item bottom30">
-                  <h2 class="text-capitalize font-xlight whitecolor">
-                     <span class="d-block">Professional code</span>
-                     <span class="d-block fontbold">core power </span>
-                     <span class="d-block font-xlight"> In One Page</span>
-                  </h2>
-                  <a href="#contactus" class="button btnsecondary top40 pagescroll">Learn More</a>
-               </div>
-               <div class="item bottom30">
-                  <h2 class="text-capitalize font-xlight whitecolor">
-                     <span class="d-block">font-xlightThe Ultimate</span>
-                     <span class="d-block fontbold">Next Big Thing </span>
-                     <span class="d-block font-xlight"> In One Page</span>
-                  </h2>
-                  <a href="#contactus" class="button btnsecondary top40 pagescroll">Learn More</a>
-               </div> -->
-            </div>
-         </div>
+      <div class="row">
+         <div class="jumbotron">
+            <h1 class="small">Dzuels <br><span class="bold">Logistics</span></h1>
+            <p class="big">Air Freight Company.</p>
+            <a href="#servicespage" class="btn btn-banner">Learn More<i class="fa fa-send"></i></a>
+          </div>
       </div>
    </div>
 </div>
-<!--Main Slider ends -->
+<!--BANNER END-->
 <!--Some Feature -->  
 <section id="aboutus" class="padding single-feature">
    <div class="container">
@@ -460,7 +395,7 @@
         <div class="col-md-12 col-sm-12">
            <div class="heading-title heading_space">
                <span>Lets Get In Touch</span>
-               <h2 class="darkcolor">Contact Dzeuls Logistics</h2>
+               <h2 class="darkcolor">Contact Dzuels Logistics</h2>
             </div>
         </div>
          <div class="col-md-6 col-sm-12 margin_bottom">
@@ -546,7 +481,7 @@
                <li><a href="javascript:void(0)"><i class="fa fa-instagram"></i> </a> </li>
                <li><a href="javascript:void(0)"><i class="fa fa-envelope-o"></i> </a> </li>
             </ul>
-            <p class="copyrights" data-wow-delay="350ms"> &copy; 2019 Dzeuls Logistics. All rights reserved  </p>
+            <p class="copyrights" data-wow-delay="350ms"> &copy; 2019 Dzuels Logistics. All rights reserved  </p>
          </div>
       </div>
    </div>
@@ -612,6 +547,14 @@
 <!--Google Map API-->
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJnKEvlwpyjXfS_h-J1Cne2fPMqeb44Mk"></script>
 <script src="js/functions.js"></script>
+
+<!-- Header -->
+<script src="Header/js/jquery.min.js"></script>
+<script src="Header/js/jquery.easing.min.js"></script>
+<script src="Header/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="Header/js/slick.min.js"></script>
+<script type="text/javascript" src="Header/js/custom.js"></script>
+<script src="Header/contactform/contactform.js"></script>
 		
 </body>
 </html>
